@@ -2,7 +2,7 @@
 
 The objective is to construct a web page that closely aligns with the design provided in the Figma file. This exercise is tailored to gauge your ability to transform design concepts into functional web interfaces.
 
-## Figma Design File
+## Figma Design Preview
 
 <img src="./public/Car-Dealership-Design.png" alt="Web-Design" />
 
