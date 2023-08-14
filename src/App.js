@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MobilingSocial from "./components/MobilingSocial";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,6 +13,7 @@ function App() {
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Hero />
       <MobilingSocial />
+      <AboutUs />
     </div>
   );
 }

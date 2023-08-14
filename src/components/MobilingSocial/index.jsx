@@ -5,7 +5,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const MobilingSocial = () => {
   return (
-    <div className="bg-white lg:mt-[137px] z-50 px-4 py-20">
+    <div className="bg-white lg:mt-[137px] z-50 px-4 pt-16">
       <div className="max-w-[1400px] w-full mx-auto flex flex-col justify-center items-start gap-6">
         <h1 className="lg:text-3xl text-2xl font-semibold text-[#344054]">
           Mobiling Social
