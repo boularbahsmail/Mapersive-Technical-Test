@@ -24,7 +24,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 place-items-center gap-8 bg-[#E3E6E9] rounded-2xl h-full py-12 px-6">
+        <div className="w-full grid grid-cols-2 place-items-center gap-8 bg-[#E3E6E9] rounded-3xl h-full py-12 px-6">
           {stats?.map((stat) => (
             <div
               className="w-full flex flex-col justify-center items-center gap-4"

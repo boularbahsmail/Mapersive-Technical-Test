@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MobilingSocial from "./components/MobilingSocial";
 import AboutUs from "./components/AboutUs";
+import Footer from "./components/Footer";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <MobilingSocial />
       <AboutUs />
+      <Footer />
     </div>
   );
 }
