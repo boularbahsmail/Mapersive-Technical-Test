@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Mapersive-Technical-Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The objective is to construct a web page that closely aligns with the design provided in the Figma file. This exercise is tailored to gauge your ability to transform design concepts into functional web interfaces.
+
+## Figma Design File
+
+<img src="/Car-Dealership-Design.png" alt="Web-Design" />
 
 ## Available Scripts
 
