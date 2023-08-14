@@ -10,7 +10,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
   return (
     <header className="max-w-[1400px] w-full mx-auto p-4 grid grid-cols-3 lg:grid-cols-3 place-items-center gap-4 lg:z-50 lg:relative">
       <div className="LOGO w-full z-50">
-        <a href="/">
+        <a href="">
           <img src={Logo} className="max-w-[120px] w-full" alt="Site-Logo" />
         </a>
       </div>
@@ -25,7 +25,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
             className="font-medium text-md text-[#667085] duration-200 ease-in-out p-2 border-b-2 border-b-transparent hover:border-b-black hover:text-black hover:font-bold"
             title="Home"
           >
-            <a href="/">Home</a>
+            <a href="">Home</a>
           </li>
 
           <li
@@ -33,7 +33,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
             title="Service"
           >
             <a
-              href="/"
+              href=""
               className="flex flex-row justify-center items-center gap-2"
             >
               <span>Service</span>
@@ -48,7 +48,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
             title="Product"
           >
             <a
-              href="/"
+              href=""
               className="flex flex-row justify-center items-center gap-2"
             >
               <span>Product</span>
@@ -62,7 +62,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
             className="font-medium text-md text-[#667085] duration-200 ease-in-out p-2 border-b-2 border-b-transparent hover:border-b-black hover:text-black hover:font-bold"
             title="Testimonial"
           >
-            <a href="/">Testimonial</a>
+            <a href="">Testimonial</a>
           </li>
 
           <div className="lg:hidden w-full flex justify-center items-center">

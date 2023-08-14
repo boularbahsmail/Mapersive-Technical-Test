@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="max-w-[1400px] w-full mx-auto flex flex-col justify-center items-center gap-24">
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-start place-content-center gap-16">
           <div className="w-full flex flex-col justify-center items-start gap-6">
-            <a href="/">
+            <a href="">
               <img
                 src={LogoWhite}
                 className="max-w-[120px] w-full"
@@ -29,25 +29,25 @@ const Footer = () => {
             <div>
               <ul className="flex justify-center items-center gap-4">
                 <li className="text-3xl text-white" title="Twitter">
-                  <a href="/">
+                  <a href="">
                     <AiFillTwitterCircle />
                   </a>
                 </li>
 
                 <li className="text-2xl text-white" title="Facebook">
-                  <a href="/">
+                  <a href="">
                     <BsFacebook />
                   </a>
                 </li>
 
                 <li className="text-2xl text-white" title="LinkedIn">
-                  <a href="/">
+                  <a href="">
                     <BsLinkedin />
                   </a>
                 </li>
 
                 <li className="text-3xl text-white" title="Instagram">
-                  <a href="/">
+                  <a href="">
                     <BiLogoInstagramAlt />
                   </a>
                 </li>
@@ -62,21 +62,21 @@ const Footer = () => {
                 className="text-sm text-white font-light"
                 title="Find new car"
               >
-                <a href="/">Find new car</a>
+                <a href="">Find new car</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="Current vehicle offers"
               >
-                <a href="/">Current vehicle offers</a>
+                <a href="">Current vehicle offers</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="Price lists & brochures"
               >
-                <a href="/">Price lists & brochures</a>
+                <a href="">Price lists & brochures</a>
               </li>
             </ul>
           </div>
@@ -90,21 +90,21 @@ const Footer = () => {
                 className="text-sm text-white font-light"
                 title="Book a test drive"
               >
-                <a href="/">Book a test drive</a>
+                <a href="">Book a test drive</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="Find a dealer near you"
               >
-                <a href="/">Find a dealer near you</a>
+                <a href="">Find a dealer near you</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="Find used vehicles"
               >
-                <a href="/">Find used vehicles</a>
+                <a href="">Find used vehicles</a>
               </li>
             </ul>
           </div>
@@ -118,42 +118,42 @@ const Footer = () => {
                 className="text-sm text-white font-light"
                 title="Current service offers"
               >
-                <a href="/">Current service offers</a>
+                <a href="">Current service offers</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="Online service campaign VIN-checker"
               >
-                <a href="/">Online service campaign VIN-checker</a>
+                <a href="">Online service campaign VIN-checker</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="5 Year staf service"
               >
-                <a href="/">5 Year staf service</a>
+                <a href="">5 Year staf service</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="24h roadside assitance"
               >
-                <a href="/">24h roadside assitance</a>
+                <a href="">24h roadside assitance</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="New and events"
               >
-                <a href="/">New and events</a>
+                <a href="">New and events</a>
               </li>
 
               <li
                 className="text-sm text-white font-light"
                 title="Press relase"
               >
-                <a href="/">Press relase</a>
+                <a href="">Press relase</a>
               </li>
             </ul>
           </div>
@@ -168,7 +168,7 @@ const Footer = () => {
 
           <div>
             <a
-              href="/"
+              href=""
               className="font-light text-sm text-white"
               title="Terms of Service"
             >
@@ -178,7 +178,7 @@ const Footer = () => {
 
           <div>
             <a
-              href="/"
+              href=""
               className="font-light text-sm text-white"
               title="Privacy Policy"
             >
@@ -188,7 +188,7 @@ const Footer = () => {
 
           <div>
             <a
-              href="/"
+              href=""
               className="font-light text-sm text-white"
               title="Cookies"
             >
@@ -198,7 +198,7 @@ const Footer = () => {
 
           <div>
             <a
-              href="/"
+              href=""
               className="flex justify-center items-center gap-4"
               title="Language"
             >
