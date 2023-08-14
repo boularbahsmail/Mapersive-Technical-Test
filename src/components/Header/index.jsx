@@ -1,5 +1,8 @@
 import React from "react";
 
+// Icons
+import { TiArrowSortedDown } from "react-icons/ti";
+
 const Header = ({ menuOpen, setMenuOpen }) => {
   return (
     <header className="max-w-[1400px] w-full mx-auto p-4 grid grid-cols-3 lg:grid-cols-3 place-items-center gap-4 lg:z-50 lg:relative">
@@ -20,28 +23,44 @@ const Header = ({ menuOpen, setMenuOpen }) => {
           } top-0 h-screen w-full backdrop-blur-md bg-white/70 duration-200 ease-in-out`}
         >
           <li
-            className="font-medium text-md text-[#667085] hover:text-black"
+            className="font-medium text-md text-[#667085] duration-200 ease-in-out p-2 border-b-2 border-b-transparent hover:border-b-black hover:text-black hover:font-bold"
             title="Home"
           >
             <a href="/">Home</a>
           </li>
 
           <li
-            className="font-medium text-md text-[#667085] hover:text-black"
+            className="font-medium text-md text-[#667085] duration-200 ease-in-out p-2 border-b-2 border-b-transparent hover:border-b-black hover:text-black hover:font-bold"
             title="Service"
           >
-            <a href="/">Service</a>
+            <a
+              href="/"
+              className="flex flex-row justify-center items-center gap-2"
+            >
+              <span>Service</span>
+              <span className="text-md">
+                <TiArrowSortedDown />
+              </span>
+            </a>
           </li>
 
           <li
-            className="font-medium text-md text-[#667085] hover:text-black"
+            className="font-medium text-md text-[#667085] duration-200 ease-in-out p-2 border-b-2 border-b-transparent hover:border-b-black hover:text-black hover:font-bold"
             title="Product"
           >
-            <a href="/">Product</a>
+            <a
+              href="/"
+              className="flex flex-row justify-center items-center gap-2"
+            >
+              <span>Product</span>
+              <span className="text-md">
+                <TiArrowSortedDown />
+              </span>
+            </a>
           </li>
 
           <li
-            className="font-medium text-md text-[#667085] hover:text-black"
+            className="font-medium text-md text-[#667085] duration-200 ease-in-out p-2 border-b-2 border-b-transparent hover:border-b-black hover:text-black hover:font-bold"
             title="Testimonial"
           >
             <a href="/">Testimonial</a>
@@ -65,9 +84,21 @@ const Header = ({ menuOpen, setMenuOpen }) => {
         className="lg:hidden h-10 flex flex-col justify-center items-end gap-1.5 z-50 w-full overflow-hidden"
         onClick={() => setMenuOpen(!menuOpen)}
       >
-        <span className={`bg-[#344054] h-[3px] w-[28px] duration-200 ease-in-out ${menuOpen && "-rotate-45"}`}></span>
-        <span className={`bg-[#344054] h-[3px] w-[28px] duration-200 ease-in-out ${menuOpen && "hidden"}`}></span>
-        <span className={`bg-[#344054] h-[3px] w-[28px] duration-200 ease-in-out ${menuOpen && "rotate-45 -mt-2"}`}></span>
+        <span
+          className={`bg-[#344054] h-[3px] w-[28px] duration-200 ease-in-out ${
+            menuOpen && "-rotate-45"
+          }`}
+        ></span>
+        <span
+          className={`bg-[#344054] h-[3px] w-[28px] duration-200 ease-in-out ${
+            menuOpen && "hidden"
+          }`}
+        ></span>
+        <span
+          className={`bg-[#344054] h-[3px] w-[28px] duration-200 ease-in-out ${
+            menuOpen && "rotate-45 -mt-2"
+          }`}
+        ></span>
       </div>
     </header>
   );
