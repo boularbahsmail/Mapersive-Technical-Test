@@ -10,6 +10,9 @@ import {
 // Car info
 import cartInfo from "./data";
 
+// Assets
+import HeroImage from "../../assets/hero-image-01.png";
+
 const Hero = () => {
   return (
     <div className="p-6 max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10">
@@ -61,7 +64,7 @@ const Hero = () => {
       <div className="w-full lg:h-auto h-full flex flex-col justify-center items-center gap-10 lg:absolute lg:-top-40 lg:right-0 lg:w-auto">
         <div className="relative">
           <img
-            src="/assets/hero-image-01.png"
+            src={HeroImage}
             alt="Hero-Image"
             className="w-full h-full relative"
           />

@@ -5,6 +5,9 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { BsArrowRight, BsFacebook, BsLinkedin } from "react-icons/bs";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 
+import LogoWhite from "../../assets/logo-01-white.png";
+import EarthIcon from "../../assets/icons/earth.png";
+
 const Footer = () => {
   return (
     <div className="bg-[#021E35] px-6 py-16 pb-10">
@@ -13,7 +16,7 @@ const Footer = () => {
           <div className="w-full flex flex-col justify-center items-start gap-6">
             <a href="/">
               <img
-                src="/logo-01-white.png"
+                src={LogoWhite}
                 className="max-w-[120px] w-full"
                 alt="Site-Logo"
               />
@@ -200,11 +203,7 @@ const Footer = () => {
               title="Language"
             >
               <span>
-                <img
-                  src="/assets/icons/earth.png"
-                  alt="Earth-Icon"
-                  className="h-4 w-4"
-                />
+                <img src={EarthIcon} alt="Earth-Icon" className="h-4 w-4" />
               </span>
               <span className="font-light text-sm text-white">English</span>
               <span className="text-xl text-white">

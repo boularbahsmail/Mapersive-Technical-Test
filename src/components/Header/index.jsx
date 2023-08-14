@@ -3,16 +3,15 @@ import React from "react";
 // Icons
 import { TiArrowSortedDown } from "react-icons/ti";
 
+// Assets
+import Logo from "../../assets/logo-01.png";
+
 const Header = ({ menuOpen, setMenuOpen }) => {
   return (
     <header className="max-w-[1400px] w-full mx-auto p-4 grid grid-cols-3 lg:grid-cols-3 place-items-center gap-4 lg:z-50 lg:relative">
       <div className="LOGO w-full z-50">
         <a href="/">
-          <img
-            src="/logo-01.png"
-            className="max-w-[120px] w-full"
-            alt="Site-Logo"
-          />
+          <img src={Logo} className="max-w-[120px] w-full" alt="Site-Logo" />
         </a>
       </div>
 

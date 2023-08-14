@@ -30,7 +30,11 @@ const AboutUs = () => {
               className="w-full flex flex-col justify-center items-center gap-4"
               key={stat?.id}
             >
-              <img src={stat?.icon} alt="Card-Icon" className={stat?.size} />
+              <img
+                src={stat?.icon}
+                alt="Card-Icon"
+                className={stat?.size}
+              />
               <h3 className="text-md text-[#344054] text-center">
                 {stat?.title}
               </h3>
