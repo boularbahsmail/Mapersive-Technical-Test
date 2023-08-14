@@ -15,7 +15,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
 
       <div className="NAV w-full">
         <ul
-          className={`flex lg:flex-row justify-center items-center gap-10 lg:static lg:bg-transparent lg:backdrop-blur-0 lg:h-auto lg:w-auto || flex-col fixed ${
+          className={`lg:z-auto z-50 flex lg:flex-row justify-center items-center gap-10 lg:static lg:bg-transparent lg:backdrop-blur-0 lg:h-auto lg:w-auto || flex-col fixed ${
             menuOpen ? "left-0" : "-left-full"
           } top-0 h-screen w-full backdrop-blur-md bg-white/70 duration-200 ease-in-out`}
         >

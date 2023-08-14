@@ -2,6 +2,10 @@ import React from "react";
 
 // Icons
 import { BsSearch } from "react-icons/bs";
+import {
+  MdOutlineArrowForwardIos,
+  MdOutlineArrowBackIos,
+} from "react-icons/md";
 
 // Car info
 import cartInfo from "./data";
@@ -54,12 +58,24 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full lg:h-auto h-full lg:absolute lg:-top-24 lg:right-0 lg:w-auto">
-        <img
-          src="/assets/hero-image-01.png"
-          alt="Hero-Image"
-          className="w-full h-full"
-        />
+      <div className="w-full lg:h-auto h-full flex flex-col justify-center items-center gap-10 lg:absolute lg:-top-40 lg:right-0 lg:w-auto">
+        <div className="relative">
+          <img
+            src="/assets/hero-image-01.png"
+            alt="Hero-Image"
+            className="w-full h-full relative"
+          />
+
+          <div className="w-[30%] mx-auto flex flex-row justify-between items-center absolute left-0 lg:right-20 right-12 lg:bottom-32 bottom-8">
+            <button className="h-10 w-10 flex justify-center items-center rounded-full border border-gray-600 text-gray-600">
+              <MdOutlineArrowBackIos />
+            </button>
+
+            <button className="h-10 w-10 flex justify-center items-center rounded-full border border-gray-600 text-gray-600">
+              <MdOutlineArrowForwardIos />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
