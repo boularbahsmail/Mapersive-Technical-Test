@@ -4,7 +4,7 @@ The objective is to construct a web page that closely aligns with the design pro
 
 ## Figma Design File
 
-<img src="/Car-Dealership-Design.png" alt="Web-Design" />
+<img src="./public/Car-Dealership-Design.png" alt="Web-Design" />
 
 ## Available Scripts
 
